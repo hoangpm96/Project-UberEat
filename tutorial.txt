@@ -4,3 +4,5 @@ python manage.py startapp footaskerapp
 python manage.py runserver
 
 Heroku login
+
+Git push heroku master
