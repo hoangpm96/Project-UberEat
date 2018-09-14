@@ -12,6 +12,11 @@
   <title>Signup page</title>
 </head>
 <body>
-  Restaurant Sign up
+  <form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ user_form }}
+    {{ restaurant_form }}
+    <button type="submit">Sign Up</button>
+  </form>
 </body>
 </html>
