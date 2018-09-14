@@ -2,3 +2,5 @@ source myvirtualenv/foodtasker/bin/activate
 
 python manage.py startapp footaskerapp
 python manage.py runserver
+
+Heroku login
